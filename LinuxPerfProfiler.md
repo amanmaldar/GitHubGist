@@ -30,5 +30,13 @@ Compilation with gdb. We need symbol table as well. <br />
 This command automatically creates default file perf.data <br />
 `sudo perf record -e cpu-clock,faults ./fileGen.o` 
 
+### Processor-wide mode
+In per-cpu mode, samples are recorded from all threads running on the monitored CPUs. 
+As as result, samples from many different processes may be collected. For instance, if we monitor across all CPUs for 5s: <br />
+`perf record -a sleep 5`
+`perf report`
+`perf report --sort=cpu`
+
+
 
 
