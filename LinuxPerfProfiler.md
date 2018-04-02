@@ -27,8 +27,8 @@ https://github.com/amanmaldar/Apriori/blob/master/fileGen.cpp
 Compilation with gdb. We need symbol table as well. <br />
 `g++ -std=c++11 -ggdb fileGen.cpp -o fileGen.o`
 
-`sudo perf record -e cpu-clock,faults ./fileGen.o` <br />
-This command automatically creates default file perf.data
+This command automatically creates default file perf.data <br />
+`sudo perf record -e cpu-clock,faults ./fileGen.o` 
 
 
 
