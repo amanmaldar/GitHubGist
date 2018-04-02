@@ -22,12 +22,12 @@ This is official wiki page. It gives details of all the commands in perf.
 ### Execution
 
 Use the following program for execution.
-'git clone https://github.com/amanmaldar/Apriori/blob/master/fileGen.cpp'
+`git clone https://github.com/amanmaldar/Apriori/blob/master/fileGen.cpp`
 
 Compilation with gdb. We need symbol table as well.
-'g++ -std=c++11 -ggdb fileGen.cpp -o fileGen.o'
+`g++ -std=c++11 -ggdb fileGen.cpp -o fileGen.o`
 
-'sudo perf record -e cpu-clock,faults ./fileGen.o'
+`sudo perf record -e cpu-clock,faults ./fileGen.o`
 This command automatically creates default file perf.data
 
 
