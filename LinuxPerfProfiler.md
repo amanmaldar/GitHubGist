@@ -2,11 +2,11 @@
 ## This file includes the details about linux performance profiler.
 
 ### Installation
-`uname -r`
-`sudo apt install linux-tools-common`
-`perf list`
-`sudo apt-get install linux-tools-4.13.0-32-generic`
-`sudo apt-get install linux-cloud-tools-4.13.0-32-generic`
+`uname -r` <br /> 
+`sudo apt install linux-tools-common` <br />
+`perf list` <br />
+`sudo apt-get install linux-tools-4.13.0-32-generic` <br />
+`sudo apt-get install linux-cloud-tools-4.13.0-32-generic` <br />
 
 
 ### Reading
