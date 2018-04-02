@@ -21,8 +21,8 @@ This is official wiki page. It gives details of all the commands in perf.
 
 ### Execution
 
-Use the following program for execution.
-`git clone https://github.com/amanmaldar/Apriori/blob/master/fileGen.cpp`
+Use the following file for execution.
+https://github.com/amanmaldar/Apriori/blob/master/fileGen.cpp
 
 Compilation with gdb. We need symbol table as well.
 `g++ -std=c++11 -ggdb fileGen.cpp -o fileGen.o`
