@@ -23,7 +23,7 @@ This document specifically talks about the overhead.
 
 ### Execution
 
-Use the following file for execution. <br / >
+Use the following file for execution. <br />
 https://github.com/amanmaldar/Apriori/blob/master/fileGen.cpp
 
 Compilation with gdb. We need symbol table as well. <br />
