@@ -18,7 +18,7 @@ report.
 https://perf.wiki.kernel.org/index.php/Tutorial <br />
 This is official wiki page. It gives details of all the commands in perf.
 
-https://fedoramagazine.org/performance-profiling-perf/ <br/ >
+https://fedoramagazine.org/performance-profiling-perf/ <br />
 This document specifically talks about the overhead.
 
 ### Execution
