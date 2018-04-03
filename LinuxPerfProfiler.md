@@ -55,10 +55,10 @@ sum = 150012 <br />
 
  Performance counter stats for './linuxPerf': <br />
  
- not supported      LLC-loads <br />"
- not supported      LLC-load-misses <br />
- not supported      LLC-stores <br />
- not supported      LLC-prefetches <br />
+ not supported		LLC-loads <br />
+ not supported		LLC-load-misses <br />
+ not supported		LLC-stores <br />
+ not supported		LLC-prefetches <br />
 
   31.516254703 seconds time elapsed <br />
 
