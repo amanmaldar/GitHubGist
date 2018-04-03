@@ -23,22 +23,22 @@ This document specifically talks about the overhead.
 
 ### Execution
 
-Use the following file for execution. <br />
+Use the following file for execution. <br/ >
 https://github.com/amanmaldar/Apriori/blob/master/fileGen.cpp
 
 Compilation with gdb. We need symbol table as well. <br />
 `g++ -std=c++11 -ggdb fileGen.cpp -o fileGen.o`
 
 This command automatically creates default file perf.data <br />
-`sudo perf record -e cpu-clock,faults ./fileGen.o` 
-`perf report`
+`sudo perf record -e cpu-clock,faults ./fileGen.o`  <br />
+`perf report` 
 
 ### Processor-wide mode
 In per-cpu mode, samples are recorded from all threads running on the monitored CPUs. 
 As as result, samples from many different processes may be collected. For instance, if we monitor across all CPUs for 5s: <br />
-`perf record -a sleep 5`
-`perf report`
-`perf report --sort=cpu`
+`perf record -a sleep 5` <br />
+`perf report` <br />
+`perf report --sort=cpu` <br />
 
 
 
