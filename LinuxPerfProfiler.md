@@ -11,6 +11,9 @@
 
 ### Reading
 
+Excellent Presentation to start with! <br />
+https://events.static.linuxfound.org/sites/events/files/slides/ELCE%20-%20fighting%20latency.pdf
+
 http://sandsoftwaresound.net/perf/perf-tutorial-hot-spots/ <br />
 This link provides very good understanding of how perf tool works, how to generate 
 report. 
