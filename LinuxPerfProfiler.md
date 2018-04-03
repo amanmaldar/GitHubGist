@@ -18,6 +18,8 @@ report.
 https://perf.wiki.kernel.org/index.php/Tutorial <br />
 This is official wiki page. It gives details of all the commands in perf.
 
+https://fedoramagazine.org/performance-profiling-perf/ <br/ >
+This document specifically talks about the overhead.
 
 ### Execution
 
@@ -29,6 +31,7 @@ Compilation with gdb. We need symbol table as well. <br />
 
 This command automatically creates default file perf.data <br />
 `sudo perf record -e cpu-clock,faults ./fileGen.o` 
+`perf report`
 
 ### Processor-wide mode
 In per-cpu mode, samples are recorded from all threads running on the monitored CPUs. 
