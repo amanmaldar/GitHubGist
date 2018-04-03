@@ -24,6 +24,9 @@ This is official wiki page. It gives details of all the commands in perf.
 https://fedoramagazine.org/performance-profiling-perf/ <br />
 This document specifically talks about the overhead.
 
+http://www.brendangregg.com/Slides/KernelRecipes_Perf_Events.pdf <br />
+This link contains some very good one liners and --stdio demo.
+
 ### Execution
 
 Use the following file for execution. <br />
